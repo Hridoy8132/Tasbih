@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/black"
+
+    >
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="সুবহানাল্লাহ
+                    سبحان الله"
+        android:textSize="30sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/button2Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text=" আলহামদুলিল্লাহ
+                     الحمد لله"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/button3Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="আল্লাহু আকবার
+               الله أكبر"
+        android:textSize="30sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/button4Add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="অন্যান্য
+                    others"
+        android:textSize="30sp"
+
+        />
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="মুছে ফেলুন Delete"
+        android:textSize="50sp"
+        android:textColor="#000000"
+
+        />
+
+</LinearLayout>
